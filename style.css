@@ -17,11 +17,21 @@ div, span {
     display: inline-block;
 }
 
-img {
+.img_main {
     display: block;
-    max-width: 25%;
-    max-height: 25%;
-    width: 70%;
+    max-width: 400px;
+    max-height: 400px;
+    width: 80%;
+    height: 80%;
+    padding: 1%;
+}
+
+
+.img_exp {
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
     height: auto;
     padding: 1%;
 }
