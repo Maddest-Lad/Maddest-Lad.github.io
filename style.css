@@ -2,7 +2,7 @@
 * {
     /* Universal Text Formatting */
     font-family: "Open Sans", sans-serif;
-    line-height: 1.58;
+    line-height: 2.5;
     letter-spacing: -.003em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -17,7 +17,7 @@ h6, h5, h4, h3, h2, h1, p, a, li, ol {
     background-color: #40444B;
     padding: 1%;
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 
 .background {
