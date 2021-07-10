@@ -1,0 +1,63 @@
+
+* {
+    /* Universal Text Formatting */
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+h6, h5, h4, h3, h2, h1, p, a, li, ol {
+    color: whitesmoke;
+}
+
+.content {
+    background-color: #40444B;
+    padding: 1%;
+    margin: auto;
+    width: 80%;
+}
+
+.background {
+    background-color: #2F3136;
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    text-transform: capitalize;
+    color: cornflowerblue;
+}
+
+.big_title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: cornflowerblue;
+}
+
+.navbar {
+    position: relative;
+    background-color: #383B41;
+}
+
+.navbar_item {
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.navbar_list {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bullet_item {
+    margin-bottom: 25px;
+}
