@@ -35,7 +35,8 @@ img.rounded-corners {
 
 .item {
     flex-shrink: 3;
-    margin: auto 1em auto 1em;
+    padding: 1%;
+    margin: 1em 1em 1em 1em;
 }
 
 .content {
