@@ -13,6 +13,31 @@ h6, h5, h4, h3, h2, h1, p, a, li, ol {
     color: whitesmoke;
 }
 
+div, span {
+    display: inline-block;
+}
+
+img {
+    display: block;
+    max-width: 25%;
+    max-height: 25%;
+    width: auto;
+    height: auto;
+}
+
+img.rounded-corners {
+    border-radius: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    flex-shrink: 3;
+    margin: auto 1em auto 1em;
+}
+
 .content {
     background-color: #40444B;
     padding: 1%;
@@ -40,6 +65,15 @@ h6, h5, h4, h3, h2, h1, p, a, li, ol {
 }
 
 .navbar {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+    background-color: #383B41;
+}
+
+.footer {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     position: relative;
     background-color: #383B41;
 }
@@ -59,5 +93,6 @@ h6, h5, h4, h3, h2, h1, p, a, li, ol {
 }
 
 .bullet_item {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
+
