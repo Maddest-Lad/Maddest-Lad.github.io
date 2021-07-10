@@ -23,6 +23,7 @@ img {
     max-height: 25%;
     width: auto;
     height: auto;
+    padding: 1%;
 }
 
 img.rounded-corners {
