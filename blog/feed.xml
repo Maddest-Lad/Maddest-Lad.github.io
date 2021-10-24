@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.w3.org/2005/Atom ">
+    <generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator>
+    <link href="https://samharris.tech/blog/feed.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://samharris.tech/blog/" rel="alternate" type="text/html"/>
+    <updated>2021-10-23T21:46:39-04:00</updated>
+    <id>https://samharris.tech/blog/feed.xml</id>
+    <title type="html">Sams Landing</title>
+    <subtitle></subtitle>
+    <entry>
+        <title type="html">A Preface</title>
+        <link href="https://samharris.tech/blog/life/meta/2021/10/23/a-preface.html" rel="alternate" type="text/html"
+              title="A Preface"/>
+        <published>2021-10-23T16:15:53-04:00</published>
+        <updated>2021-10-23T16:15:53-04:00</updated>
+        <id>https://samharris.tech/blog/life/meta/2021/10/23/a-preface</id>
+        <content type="html" xml:base="https://samharris.tech/blog/life/meta/2021/10/23/a-preface.html">&lt;p&gt;This is
+            post number one&lt;/p&gt;
+        </content>
+        <author>
+            <name></name>
+        </author>
+        <category term="life"/>
+        <category term="meta"/>
+        <summary type="html">This is post number one</summary>
+    </entry>
+    <entry>
+        <title type="html">Servers, Security and Sam</title>
+        <link href="https://samharris.tech/blog/life/2021/10/23/weekly-review.html" rel="alternate" type="text/html"
+              title="Servers, Security and Sam"/>
+        <published>2021-10-23T00:00:00-04:00</published>
+        <updated>2021-10-23T00:00:00-04:00</updated>
+        <id>https://samharris.tech/blog/life/2021/10/23/weekly-review</id>
+        <content type="html" xml:base="https://samharris.tech/blog/life/2021/10/23/weekly-review.html">&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+            &lt;hr /&gt;
+            &lt;p&gt;Calling this week a roller coaster would be an understatement, I accepted a security engineering
+            co-op at Blue Origin,
+            got a new server machine, reflashed my laptop to Windows 11, and generally attempted to deal with the
+            academics in the
+            remaining time.&lt;/p&gt;
+
+            &lt;h3 id=&quot;servers-and-operating-systems&quot;&gt;Servers and Operating Systems&lt;/h3&gt;
+            &lt;hr /&gt;
+            &lt;p&gt;“Cause who needs the cloud when you can curse out your machine in person”&lt;/p&gt;
+
+            &lt;p&gt;Retrospectively, in regard to both my wallet and dwindling sanity, I should’ve just rented out a
+            machine on something
+            like AWS or Azure. But alas, I’d rather be the one to safeguard my own data, and I’m just going to guess
+            that my
+            extensive music library would probably raise a few eyebrows in the wrong places.&lt;/p&gt;
+
+            &lt;p&gt;&lt;img src=&quot;https://cdn.discordapp.com/attachments/901591681026113578/901591741868695612/server.png&quot;
+            alt=&quot;The Server&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+            &lt;p&gt;Par for my course, when I received the server, I discovered that it only had two USB ports. Needing
+            one of them
+            exclusively for the boot media, the Ethernet Adapter, Keyboard, and Mouse Dongle had to compete for the
+            single port. A
+            thoughtful reader may wonder why an ethernet adapter is required; well, as it turns out that the server came
+            with an
+            RJ45 fiber optic port. So, during the installation process, I was perfectly capable of installing fairly
+            basic operating
+            systems such as Ubuntu Server, but I couldn’t configure the network or even begin to attempt any more
+            complex operating
+            systems. I realize I’ve been ranting for a while, so I’ll leave it to the reader to figure out how I got
+            everything to work.&lt;/p&gt;
+
+            &lt;h3 id=&quot;joining-the-red-team-at-blue-guess-im-in-security-now&quot;&gt;Joining the Red Team at Blue,
+            Guess I’m in Security Now&lt;/h3&gt;
+            &lt;hr /&gt;
+            &lt;p&gt;So some background, as far as I’m concerned, I’m a software engineer by trade, I’ve had two
+            internships working as one, and
+            it’s safe to say that I know my way around a development team. So when Blue Origin passed me up for a
+            software role,
+            only to have their CISO (chief information security officer) call me - suffice to say, I was shocked. Now
+            that’s not to
+            say I don’t enjoy messing around with software and sites - just ask RIT why their directory page isn’t
+            online right now (don’t actually).&lt;/p&gt;
+
+            &lt;p&gt;&lt;img src=&quot;http://cdn.mos.cms.futurecdn.net/t9uTBm6jxhxCbTiMZWgjBe.jpg&quot; alt=&quot;&quot;
+            /&gt;&lt;/p&gt;
+
+            &lt;p&gt;But the pay is great, I’ve been told my mentor has a wicked sense of humor, and I’ll be given a
+            wide scope to try and
+            break things - what’s not to like! - Well, in my case the time it takes to become familiar with breaking
+            things. Regrettably
+            to me (and a relief to others’), I’m still stuck as a student working on that piece of paper we like to call
+            a degree. So
+            it’s out of the frying pan (the job search), and into the fire of spending my free time preparing myself to
+            be the best employee I can.&lt;/p&gt;
+
+            &lt;h3 id=&quot;alrighty&quot;&gt;Alrighty&lt;/h3&gt;
+            &lt;hr /&gt;
+            &lt;p&gt;Well it’s of my opinion that this has gone on for long enough (although I am covering a whole week
+            of my action-packed life),
+            so let’s wrap it up here. For all our sanity’s, my next post will be a break from technology, delving into
+            my equally
+            convoluted personal philosophy instead. Thanks for reading my first post, I really should go write the
+            preface now.&lt;/p&gt;
+
+            &lt;p&gt;And Then There Was One &lt;br /&gt;
+            -Sam&lt;/p&gt;
+        </content>
+        <author>
+            <name></name>
+        </author>
+        <category term="life"/>
+        <summary type="html">Overview Calling this week a roller coaster would be an understatement, I accepted a
+            security engineering co-op at Blue Origin, got a new server machine, reflashed my laptop to Windows 11, and
+            generally attempted to deal with the academics in the remaining time.
+        </summary>
+    </entry>
+</feed>

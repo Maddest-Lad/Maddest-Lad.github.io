@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Servers, Security and Sam | Sams Landing</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Servers, Security and Sam" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Overview Calling this week a roller coaster would be an understatement, I accepted a security engineering co-op at Blue Origin, got a new server machine, reflashed my laptop to Windows 11, and generally attempted to deal with the academics in the remaining time." />
+<meta property="og:description" content="Overview Calling this week a roller coaster would be an understatement, I accepted a security engineering co-op at Blue Origin, got a new server machine, reflashed my laptop to Windows 11, and generally attempted to deal with the academics in the remaining time." />
+<link rel="canonical" href="https://samharris.tech/blog/life/2021/10/23/weekly-review.html" />
+<meta property="og:url" content="https://samharris.tech/blog/life/2021/10/23/weekly-review.html" />
+<meta property="og:site_name" content="Sams Landing" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-23T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Servers, Security and Sam" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Servers, Security and Sam","dateModified":"2021-10-23T00:00:00-04:00","datePublished":"2021-10-23T00:00:00-04:00","description":"Overview Calling this week a roller coaster would be an understatement, I accepted a security engineering co-op at Blue Origin, got a new server machine, reflashed my laptop to Windows 11, and generally attempted to deal with the academics in the remaining time.","url":"https://samharris.tech/blog/life/2021/10/23/weekly-review.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://samharris.tech/blog/life/2021/10/23/weekly-review.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://samharris.tech/blog/feed.xml" title="Sams Landing" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Sams Landing</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About</a><a class="page-link" href="/blog/old/post_template.html">A Preface</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Servers, Security and Sam</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-10-23T00:00:00-04:00" itemprop="datePublished">Oct 23, 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h3 id="overview">Overview</h3>
+<hr />
+<p>Calling this week a roller coaster would be an understatement, I accepted a security engineering co-op at Blue Origin, 
+got a new server machine, reflashed my laptop to Windows 11, and generally attempted to deal with the academics in the
+remaining time.</p>
+
+<h3 id="servers-and-operating-systems">Servers and Operating Systems</h3>
+<hr />
+<p>“Cause who needs the cloud when you can curse out your machine in person”</p>
+
+<p>Retrospectively, in regard to both my wallet and dwindling sanity, I should’ve just rented out a machine on something 
+like AWS or Azure. But alas, I’d rather be the one to safeguard my own data, and I’m just going to guess that my 
+extensive music library would probably raise a few eyebrows in the wrong places.</p>
+
+<p><img src="https://cdn.discordapp.com/attachments/901591681026113578/901591741868695612/server.png" alt="The Server" class="img-responsive" /></p>
+
+<p>Par for my course, when I received the server, I discovered that it only had two USB ports. Needing one of them 
+exclusively for the boot media, the Ethernet Adapter, Keyboard, and Mouse Dongle had to compete for the single port. A
+thoughtful reader may wonder why an ethernet adapter is required; well, as it turns out that the server came with an 
+RJ45 fiber optic port. So, during the installation process, I was perfectly capable of installing fairly basic operating 
+systems such as Ubuntu Server, but I couldn’t configure the network or even begin to attempt any more complex operating
+systems. I realize I’ve been ranting for a while, so I’ll leave it to the reader to figure out how I got everything to work.</p>
+
+<h3 id="joining-the-red-team-at-blue-guess-im-in-security-now">Joining the Red Team at Blue, Guess I’m in Security Now</h3>
+<hr />
+<p>So some background, as far as I’m concerned, I’m a software engineer by trade, I’ve had two internships working as one, and
+it’s safe to say that I know my way around a development team. So when Blue Origin passed me up for a software role, 
+only to have their CISO (chief information security officer) call me - suffice to say, I was shocked. Now that’s not to
+say I don’t enjoy messing around with software and sites - just ask RIT why their directory page isn’t online right now  (don’t actually).</p>
+
+<p><img src="http://cdn.mos.cms.futurecdn.net/t9uTBm6jxhxCbTiMZWgjBe.jpg" alt="" /></p>
+
+<p>But the pay is great, I’ve been told my mentor has a wicked sense of humor, and I’ll be given a wide scope to try and 
+break things - what’s not to like! - Well, in my case the time it takes to become familiar with breaking things. Regrettably
+to me (and a relief to others’), I’m still stuck as a student working on that piece of paper we like to call a degree. So 
+it’s out of the frying pan (the job search), and into the fire of spending my free time preparing myself to be the best employee I can.</p>
+
+<h3 id="alrighty">Alrighty</h3>
+<hr />
+<p>Well it’s of my opinion that this has gone on for long enough (although I am covering a whole week of my action-packed life),
+so let’s wrap it up here. For all our sanity’s, my next post will be a break from technology, delving into my equally
+convoluted personal philosophy instead. Thanks for reading my first post, I really should go write the preface now.</p>
+
+<p>And Then There Was One <br />
+-Sam</p>
+
+
+  </div><a class="u-url" href="/blog/life/2021/10/23/weekly-review.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Sams Landing</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Sams Landing</li><li><a class="u-email" href="mailto:samharris23@live.com">samharris23@live.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/SamHarris2020"><svg class="svg-icon"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg> <span class="username">SamHarris2020</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
