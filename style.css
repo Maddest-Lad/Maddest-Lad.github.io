@@ -120,3 +120,11 @@ img.rounded-corners {
 .button {
 
 }
+
+.post_link {
+    display: inline-block
+}
+
+.no_bullet {
+    list-style: none
+}
