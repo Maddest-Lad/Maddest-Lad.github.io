@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@500&display=swap|Rubik');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans|Rubik');
+
 * {
     /* Universal Text Formatting */
-    font-family: Spectral, serif;
+    font-family: 'Noto Sans', sans-serif;
     line-height: 2.5;
     letter-spacing: -.003em;
     -webkit-font-smoothing: antialiased;
@@ -23,6 +24,10 @@ h6, h5, h4, h3, h2, h1, p, a, li, ol, small, span {
 
 p, a, li, ol, small, span {
     font-size: 1.03em;
+}
+
+p {
+    text-align: justify
 }
 
 h1, span {
