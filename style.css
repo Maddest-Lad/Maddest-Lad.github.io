@@ -9,6 +9,15 @@
     text-rendering: optimizeLegibility;
 }
 
+:root {
+    /* Global Color Variables */
+    --background: #2F3136;
+    --navbars: #383B41;
+    --content: #40444B;
+    --title: cornflowerblue;
+
+}
+
 h6, h5, h4, h3, h2, h1, p, a, li, ol, small, span {
     color: whitesmoke;
 }
@@ -64,21 +73,21 @@ img.rounded-corners {
 }
 
 .content {
-    background-color: #40444B;
+    background-color: var(--content);
     padding: 1%;
     margin: auto;
     width: 90%;
 }
 
 .background {
-    background-color: #2F3136;
+    background-color: var(--background);
 }
 
 .title {
     display: flex;
     justify-content: left;
     text-transform: capitalize;
-    color: cornflowerblue;
+    color: var(--title);
 }
 
 .big_title {
@@ -86,21 +95,21 @@ img.rounded-corners {
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: 0.25em;
-    color: cornflowerblue;
+    color: var(--title);
 }
 
 .navbar {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     position: relative;
-    background-color: #383B41;
+    background-color: var(--navbars);
 }
 
 .footer {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: relative;
-    background-color: #383B41;
+    background-color: var(--navbars);
 }
 
 .navbar_item {
@@ -143,7 +152,7 @@ img.rounded-corners {
 }
 
 .blog_post {
-    background-color: #383B41;
+    background-color: var(--navbars);
     padding: 1% 5%;
     border-radius: 15px;
 }
