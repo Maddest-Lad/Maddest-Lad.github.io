@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="043113cd-9072-4c5b-97c6-e2ee1960242c" name="Changes" comment="Making Some Progress with the Rework">
-      <change afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+    <list default="true" id="043113cd-9072-4c5b-97c6-e2ee1960242c" name="Changes" comment="Added CNAME">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -65,7 +66,7 @@
       <workItem from="1646160823132" duration="1287000" />
       <workItem from="1646189230979" duration="1167000" />
       <workItem from="1646190561370" duration="1408000" />
-      <workItem from="1646207497899" duration="6381000" />
+      <workItem from="1646207497899" duration="6729000" />
     </task>
     <task id="LOCAL-00001" summary="Added Site Source">
       <created>1646190233409</created>
@@ -81,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646213977854</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added CNAME">
+      <created>1646214083152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646214083152</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Site Source" />
     <MESSAGE value="Making Some Progress with the Rework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Making Some Progress with the Rework" />
+    <MESSAGE value="Added CNAME" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CNAME" />
   </component>
 </project>
