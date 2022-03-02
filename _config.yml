@@ -10,7 +10,7 @@ description: > # description of the site (multiple lines allowed)
   My Small Corner of the Internet
 
 favicon: "icon.ico" # name+extension of favicon (which must be put on the root folder)
-theme: riggraz/no-style-please
+theme: no-style-please
 
 theme_config:
   appearance: "auto" # "light", "dark", "auto"
