@@ -1,0 +1,28 @@
+entries:
+  - title: My Quiet Corner of the Internet
+    entries:
+      - title: My Github
+        url: https://github.com/SamHarris2020
+
+  - title: Projects
+    post_list:
+      category: project
+      limit: 5
+      show_more: true
+      show_more_text: See the rest
+      show_more_url: project.html
+
+  - title: Blog
+    post_list:
+      category: blog
+      limit: 5
+      show_more: true
+      show_more_text: See the rest
+      show_more_url: blog.html
+
+  - title: Chronology
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See It All
+      show_more_url: archive.html

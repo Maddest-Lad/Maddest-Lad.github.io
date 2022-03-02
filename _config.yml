@@ -1,38 +1,26 @@
-# Jekyll Config File
-# Build Command "bundle exec jekyll serve"
 
-# Important Site Variables
 title: Sam's Zone
 email: samharris23@live.com
-description: >-
-  I Love to Code. Whether it's automating fishing mini-games in Raft, Albion, and Minecraft, or setting your background
-  to the top image on Reddit every morning, it's always something fun. 
-  But I'm not afraid to get my hands dirty either, outside of programming I enjoy woodworking, cooking and all sorts of 
-  hastily assembled prototypes like my current electric longboard and custom bass guitar I built over the summer.
+author: Sam Harris
 
-baseurl: "" # Keep Empty For Index.md to be Base Page
 url: "https://samharris.tech/"
+baseurl: "" # Keep Empty
 
-# Various Variables
-github_username: SamHarris2020
-github_link: https://github.com/SamHarris2020
+description: > # description of the site (multiple lines allowed)
+  My Small Corner of the Internet
 
-linkedin_username: 20samharris
-linkedin_link: https://www.linkedin.com/in/20samharris/
-
-
-
-# Build settings
-markdown: kramdown
+favicon: "icon.ico" # name+extension of favicon (which must be put on the root folder)
 theme: no-style-please
+
+theme_config:
+  appearance: "auto" # "light", "dark", "auto"
+  back_home_text: "Return" # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
+
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - build.bat
-  - .gitignore
+  - jekyll-seo-tag
