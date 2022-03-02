@@ -1,0 +1,38 @@
+# Jekyll Config File
+# Build Command "bundle exec jekyll serve"
+
+# Important Site Variables
+title: Sam's Zone
+email: samharris23@live.com
+description: >-
+  I Love to Code. Whether it's automating fishing mini-games in Raft, Albion, and Minecraft, or setting your background
+  to the top image on Reddit every morning, it's always something fun. 
+  But I'm not afraid to get my hands dirty either, outside of programming I enjoy woodworking, cooking and all sorts of 
+  hastily assembled prototypes like my current electric longboard and custom bass guitar I built over the summer.
+
+baseurl: "" # Keep Empty For Index.md to be Base Page
+url: "https://samharris.tech/"
+
+# Various Variables
+github_username: SamHarris2020
+github_link: https://github.com/SamHarris2020
+
+linkedin_username: 20samharris
+linkedin_link: https://www.linkedin.com/in/20samharris/
+
+
+
+# Build settings
+markdown: kramdown
+theme: no-style-please
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - build.bat
+  - .gitignore
