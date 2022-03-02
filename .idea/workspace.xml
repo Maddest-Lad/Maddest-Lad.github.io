@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="043113cd-9072-4c5b-97c6-e2ee1960242c" name="Changes" comment="Added Site Source">
-      <change afterPath="$PROJECT_DIR$/.idea/build.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/menu.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2021-10-23-blue.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2021-10-30-philosophy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/63/7e252fa8460c2278df772e6dfbf4934329e2f03a9174070b70d0883886b435" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-02-28-welcome-to-jekyll.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+    <list default="true" id="043113cd-9072-4c5b-97c6-e2ee1960242c" name="Changes" comment="Making Some Progress with the Rework">
+      <change afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +65,7 @@
       <workItem from="1646160823132" duration="1287000" />
       <workItem from="1646189230979" duration="1167000" />
       <workItem from="1646190561370" duration="1408000" />
-      <workItem from="1646207497899" duration="6244000" />
+      <workItem from="1646207497899" duration="6381000" />
     </task>
     <task id="LOCAL-00001" summary="Added Site Source">
       <created>1646190233409</created>
@@ -91,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646190233409</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Making Some Progress with the Rework">
+      <created>1646213977854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646213977854</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Site Source" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Site Source" />
+    <MESSAGE value="Making Some Progress with the Rework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making Some Progress with the Rework" />
   </component>
 </project>
