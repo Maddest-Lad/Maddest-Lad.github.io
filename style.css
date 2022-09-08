@@ -18,7 +18,7 @@
     --title: #4598d3;
 }
 
-h6, h5, h4, h3, h2, h1, p, a, li, ol, small, span {
+h6, h5, h4, h3, h2, h1, p, a, li, ol, small, span, code {
     color: whitesmoke;
 }
 
@@ -86,10 +86,7 @@ img.rounded-corners {
 }
 
 .content {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 15px;
     background-color: var(--content);
     padding: 1%;
     margin: auto;
@@ -117,10 +114,11 @@ img.rounded-corners {
     color: var(--title);
 }
 
-.navbar {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+.header {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     position: relative;
+    margin-top: 2%;
     background-color: var(--navbars);
 }
 
@@ -130,21 +128,6 @@ img.rounded-corners {
     position: relative;
     margin-bottom: 4%;
     background-color: var(--navbars);
-}
-
-.navbar_item {
-    font-family: Rubik, sans-serif;
-    font-size: 1.5em;
-    font-weight: bolder;
-}
-
-.navbar_list {
-    display: flex;
-    align-items: stretch; /* Default */
-    justify-content: space-evenly;
-    width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 .bullet_item {
